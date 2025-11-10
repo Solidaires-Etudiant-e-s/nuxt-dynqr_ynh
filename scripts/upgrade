@@ -27,14 +27,14 @@ ynh_config_add_nginx
 #=================================================
 ynh_script_progression "Rebuilding $app..."
 
-ynh_exec_as_app "cd $install_dir && npm install && npm run build"
+ynh_spawn_app_shell <<< "cd $install_dir && npm install && npm run build"
 
 #=================================================
 # UPDATING THE DATABASE
 #=================================================
 
 ynh_script_progression "Updating the database for $app..."
-ynh_exec_as_app "cd $install_dir && npm run prisma:generate && npm run prisma:migrate:deploy"
+ynh_spawn_app_shell <<< "cd $install_dir && npm run prisma:generate && npm run prisma:migrate:deploy"
 
 #==================================================
 # RESTART THE APP SERVICE
