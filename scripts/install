@@ -61,7 +61,7 @@ ynh_exec_as_app "npm run prisma:migrate:deploy"
 ynh_script_progression "Setting up the service for $app..."
 
 # Create a dedicated systemd service for $app
-ynh_service_add --name="$app" --description="$app service" --working_dir="$install_dir" --user="$app" --group="$app" --exec_start="/usr/bin/node $install_dir/.output/server/index.mjs" --restart="on-failure" --wanted_by="multi-user.target"
+ynh_config_add_systemd
 
 
 #=================================================
