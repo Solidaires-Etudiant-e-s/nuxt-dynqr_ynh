@@ -59,11 +59,11 @@ ram.runtime = "512M"
     main.url = "/"
     main.allowed = "all_users"
 
-    admin.url = '/re:^/admin($|/)'
+    admin.url = '/admin'
     admin.show_tile = false
     admin.allowed = "admins"
 
-    public_redirects.url = '/re:^/l/($|/|.*)'
+    public_redirects.url = '/l'
     public_redirects.show_tile = false
     public_redirects.allowed = "visitors"
 
