@@ -54,6 +54,15 @@ ram.runtime = "512M"
 
     [resources.permissions]
     main.url = "/"
+    main.allowed = "all_users"
+
+    admin.url = 're:^/admin($|/)'
+    admin.show_tile = false
+    admin.allowed = "admins"
+
+    public_redirects.url = 're:^/l/($|/)'
+    public_redirects.show_tile = false
+    public_redirects.allowed = "visitors"
 
     [resources.apt]
     packages = "mariadb-server"
