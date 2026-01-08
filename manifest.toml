@@ -47,7 +47,7 @@ ram.runtime = "512M"
 
     [resources.sources.main]
     url = "https://github.com/Solidaires-Etudiant-e-s/nuxt-dynqr/archive/refs/tags/v0.6.1.tar.gz"
-    sha256 = "63fa0d90be68e9b7f493ae47a3c41341c2ec39ecceecdd79e8b63af7147d9ac8"
+    sha256 = "468ea579d11fd24c0b6621d8be5d00f1770ea3a59559b6e5195603c646bb06f6"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
