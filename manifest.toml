@@ -4,7 +4,7 @@ name = "Nuxt DynQR"
 description.en = "A Nuxt.js app that generates and manages dynamic QR codes for YunoHost"
 description.fr = "Une app Nuxt.js qui génère et gère des QR codes dynamiques pour YunoHost"
 
-version = "0.5~ynh1"
+version = "0.6.1~ynh1"
 
 maintainers = ["ebanDev"]
 
@@ -46,7 +46,7 @@ ram.runtime = "512M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/Solidaires-Etudiant-e-s/nuxt-dynqr/archive/refs/tags/v0.5.tar.gz"
+    url = "https://github.com/Solidaires-Etudiant-e-s/nuxt-dynqr/archive/refs/tags/v0.6.1.tar.gz"
     sha256 = "63fa0d90be68e9b7f493ae47a3c41341c2ec39ecceecdd79e8b63af7147d9ac8"
     autoupdate.strategy = "latest_github_tag"
 
