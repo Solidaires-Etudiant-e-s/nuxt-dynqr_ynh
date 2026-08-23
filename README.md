@@ -6,7 +6,7 @@ Create and store static and dynamic QR codes with custom branding using a modern
 
 ## 📦 Developer info
 
-🛠️ Upstream SoliQrCode repository: <https://github.com/Solidaires-Etudiant-e-s/nuxt-dynqr>
+🛠️ Upstream SoliQrCode repository: <https://github.com/Solidaires-Etudiant-e-s/SoliQrCode>
 
 ### 📚 App packaging documentation
 
