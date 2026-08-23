@@ -1,8 +1,8 @@
 packaging_format = 2
 id = "nuxt-dynqr"
-name = "Nuxt DynQR"
-description.en = "A Nuxt.js app that generates and manages dynamic QR codes for YunoHost"
-description.fr = "Une app Nuxt.js qui génère et gère des QR codes dynamiques pour YunoHost"
+name = "SoliQrCode"
+description.en = "SoliQrCode – a Nuxt app that generates and manages branded dynamic QR codes for YunoHost"
+description.fr = "SoliQrCode – une app Nuxt qui génère et gère des QR codes dynamiques personnalisés pour YunoHost"
 
 version = "0.6.2~ynh1"
 

@@ -1,12 +1,12 @@
 <h1>
-  Nuxt DynQr, packaged for YunoHost
+  SoliQrCode, packaged for YunoHost
 </h1>
 
 Create and store static and dynamic QR codes with custom branding using a modern Nuxt 4 UI.
 
 ## 📦 Developer info
 
-🛠️ Upstream Dynamic Qr code repository: <https://github.com/ebanDev/nuxt-dynqr>
+🛠️ Upstream SoliQrCode repository: <https://github.com/Solidaires-Etudiant-e-s/nuxt-dynqr>
 
 ### 📚 App packaging documentation
 
